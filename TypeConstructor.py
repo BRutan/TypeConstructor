@@ -5,9 +5,11 @@
 # * Singleton class that generates
 # new instances from type objects.
 
+__all__ = [ 'TypeConstructor' ]
+
 import re
 import sys
-import types
+
 
 class TypeConstructor:
     """
